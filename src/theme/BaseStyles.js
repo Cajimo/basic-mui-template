@@ -6,7 +6,7 @@ theme = responsiveFontSizes(theme);
 theme = createMuiTheme({
   typography: {
     fontFamily: `'Montserrat', sans-serif`,
-
+    fontSize: 10,
     h1: {
       fontSize: "3rem",
 
@@ -61,14 +61,17 @@ theme = createMuiTheme({
     body1: {
       fontSize: "1rem",
       [theme.breakpoints.down("md")]: {
-        fontSize: "1rem",
-      },
-      [theme.breakpoints.down("sm")]: {
         fontSize: "0.8rem",
       },
-      [theme.breakpoints.down("xs")]: {
+      [theme.breakpoints.down("sm")]: {
         fontSize: "0.6rem",
       },
+      [theme.breakpoints.down("xs")]: {
+        fontSize: "0.4rem",
+      },
+    },
+    caption: {
+      fontWeight: "bold",
     },
   },
   palette: {
