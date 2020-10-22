@@ -9,12 +9,6 @@ const NavbarStyles = makeStyles({
   title: {
     flexGrow: 1,
   },
-  menuButton: {
-    flexGrow: 1,
-  },
-  loginButton: {
-    flexGrow: 1,
-  },
 });
 
 export default NavbarStyles;

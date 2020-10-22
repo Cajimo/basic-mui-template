@@ -5,6 +5,8 @@ theme = responsiveFontSizes(theme);
 
 theme = createMuiTheme({
   typography: {
+    fontFamily: `'Montserrat', sans-serif`,
+
     h1: {
       fontSize: "3rem",
 

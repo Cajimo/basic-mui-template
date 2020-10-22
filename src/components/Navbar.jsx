@@ -4,6 +4,8 @@ import {
   Button,
   Grid,
   IconButton,
+  Menu,
+  MenuItem,
   Toolbar,
   Typography,
 } from "@material-ui/core";
@@ -22,6 +24,10 @@ const Navbar = () => {
           <Typography variant="h4" className={classes.title}>
             Plantilla MUI Theme AMOM
           </Typography>
+          <MenuItem>Item1</MenuItem>
+          <MenuItem>Item2</MenuItem>
+          <MenuItem>Item3</MenuItem>
+          <MenuItem>Item4</MenuItem>
           <Button size="medium" color="inherit">
             Login
           </Button>
